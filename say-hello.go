@@ -13,3 +13,7 @@ func SayLord(name string) string {
 func SayNumber(number int) any {
 	return fmt.Sprintln("namor yang kamu masukkna", number)
 }
+
+func SayMultiple(number int) int {
+	return number + number
+}
